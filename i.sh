@@ -50,7 +50,7 @@ main(){
 pass(){
    echo "\033[0m\n\033[0m\033[31mВведите пароль\n"
    read p 
-   if [ $p = 1222 ];
+   if [ $p = 0000 ];
    then 
    main
    else
