@@ -63,5 +63,4 @@ pass(){
 
 
 #Запуск 
-clear
 pass
