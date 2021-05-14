@@ -52,14 +52,19 @@ pass(){
    read p 
    if [ $p = 0000 ];
    then 
+   clear
    main
    else
    clear
-   exit
+   echo "Неправильный пароль"
+   sleep 3
+   clear 
+   pass
    fi
 }
 
 
 
 #Запуск 
+clear
 pass
