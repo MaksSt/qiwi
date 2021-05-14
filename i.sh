@@ -52,7 +52,6 @@ pass(){
    read p 
    if [ $p = 1222 ];
    then 
-   clear
    main
    else
    clear
